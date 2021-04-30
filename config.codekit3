@@ -106,6 +106,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/visuals\/domotica.jpg" : {
+      "ft" : 16384,
+      "iS" : 187083,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/visuals\/domotica.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/visuals\/fire-safety.jpg" : {
+      "ft" : 16384,
+      "iS" : 1049752,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/visuals\/fire-safety.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/visuals\/flatlay-tools.jpg" : {
+      "ft" : 16384,
+      "iS" : 4879947,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/visuals\/flatlay-tools.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/visuals\/solar-panel.jpg" : {
+      "ft" : 16384,
+      "iS" : 139814,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/img\/visuals\/solar-panel.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
