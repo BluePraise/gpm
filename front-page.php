@@ -9,13 +9,24 @@ get_header(); ?>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-installatie.jpg" alt="Logo GPM Installatietechniek">
 </div>
 <main class="page-content">
-<div class="services">
-    <h2>Wat doen wij?</h2>
-    <p>Welkom op de website van GPM Installatietechniek. Als zelfstandig werkend elektrotechnisch installatiebureau bestaan onze dagelijkse bezigheden uit het aanleggen van elektra, verlichting, intercom, audio/video, zonnepanelen en domotica installaties en natuurlijk het oplossen van storingen. </p>
-    <h3>Ook voor nieuwbouw en renovatie</h3>
-    <p>Bij nieuwbouw projecten zijn wij vaak de eersten die komen voor de aanleg van de infrastructuur en zijn wij tevens de laatsten die weggaan na het monteren van verlichting, schakelaars, wandcontactdozen en dergelijke.
-    Bij renovatieprojecten adviseren wij de klanten in de mogelijkheden die er zijn en spelen goed in op hun wensen. Oplossingen kunnen onder meer gevonden worden in bijvoorbeeld domotica welke tot een van onze specialiteiten behoort.</p>
-</div>
+    <section class="chapter intro grid col-2">
+        <div class="services">
+            <h2>Wat doen wij?</h2>
+            <p>Welkom op de website van GPM Installatietechniek. Als zelfstandig werkend elektrotechnisch installatiebureau bestaan onze dagelijkse bezigheden uit het aanleggen van elektra, verlichting, intercom, audio/video, zonnepanelen en domotica installaties en natuurlijk het oplossen van storingen. </p>
+            <h3>Ook voor nieuwbouw en renovatie</h3>
+            <p>Bij nieuwbouw projecten zijn wij vaak de eersten die komen voor de aanleg van de infrastructuur en zijn wij tevens de laatsten die weggaan na het monteren van verlichting, schakelaars, wandcontactdozen en dergelijke.
+            Bij renovatieprojecten adviseren wij de klanten in de mogelijkheden die er zijn en spelen goed in op hun wensen. Oplossingen kunnen onder meer gevonden worden in bijvoorbeeld domotica welke tot een van onze specialiteiten behoort.</p>
+        </div>
+        <div class="contact-block">
+            <h2> <i data-feather="edit-2"></i><span>Contact Ons</span></h2>
+            <ul>
+                <li><i data-feather="phone"></i><a href="tel:+31 26 213 47 58">+31 26 213 47 58</a></li>
+                <li><i data-feather="mail"></i><a href="mailto:info@gpminstallatietechniek.nl" target="_blank" rel="noopener">info@gpminstallatietechniek.nl</a></li>
+                <li><i data-feather="home"></i><a href="https://maps.google.com/?q=Snelliusweg+30&amp;entry=gmail&amp;source=g">Snelliusweg 30-38 6827 DH Arnhem</a></li>
+                
+            </ul>
+        </div>
+</section>
 <section class="chapter electro">
     <div class="tag-line">
         <h2>Elektrotechnische installaties van hoge kwaliteit</h2>
@@ -76,7 +87,7 @@ Of het nu om een eengezinswoning of een kantorencomplex gaat, de vraag naar comf
     <figure class="filter-grey"><img src="<?php echo get_stylesheet_directory_uri();?>/img/visuals/security.jpg" alt=""></figure>
 </section>
 
-<div class="contact-block">
+<div class="contact-block show-xs">
     <h2> <i data-feather="edit-2"></i><span>Contact Ons</span></h2>
     <ul>
         <li><i data-feather="phone"></i><a href="tel:+31 26 213 47 58">+31 26 213 47 58</a></li>
