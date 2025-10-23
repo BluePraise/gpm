@@ -1,6 +1,8 @@
 :root {
     /* RAL 5004 Color Scheme */
-    --primary-color: #191e28;
+    /* --primary-color: #191e28; */
+    --primary-color: #161B26;
+    /* From colorpicker: #161B26 */
     --primary-rgb: 25, 30, 40;
     --text-dark: #222;
     --text-muted: #666;
@@ -54,37 +56,25 @@ body {
     border-radius: 8px;
 }
 .logo-container {
-    background-color: var(--primary-color);
-    padding: 40px 60px;
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: var(--bg-light);
+}
+.navbar-logo {
+    height: auto;
+    max-width: 180px;
+    border: none;
+    padding: 10px 0;
 }
 
-.gpm {
-    font-family: 'Constantia', 'Times New Roman', 'Cinzel', 'Georgia', serif;
-    font-size: 1.4em;
-    color: #ffffff;
-    letter-spacing: 0.05em;
-    margin: 0;
-    line-height: 1;
-}
-.gpm-subtitle {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.6em;
-    font-weight: 200;
-    color: #ffffff;
-    text-transform: uppercase;
-}
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--primary-color), rgba(25, 30, 40, 0.75));
+    /* background: linear-gradient(135deg, var(--primary-color), rgba(25, 30, 40, 0.75)); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: #fff;
+    color: var(--text-dark);
     padding: 100px 0 80px;
     position: relative;
 }
