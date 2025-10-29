@@ -36,6 +36,13 @@ if (!defined('ABSPATH')) {
         </div>
     </footer>
 
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="<?php esc_attr_e('Terug naar boven', 'gpm-installatietechniek'); ?>" title="<?php esc_attr_e('Terug naar boven', 'gpm-installatietechniek'); ?>">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </button>
+
     <?php wp_footer(); ?>
 </body>
 </html>

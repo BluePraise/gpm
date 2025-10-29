@@ -20,11 +20,11 @@ if (!defined('ABSPATH')) {
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="100" data-bs-smooth-scroll="true">
 <?php wp_body_open(); ?>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav id="navbar-scrollspy" class="navbar navbar-expand-lg sticky-top">
         <div class="container ps-0 ps-sm-3">
             <a class="logo-container" href="<?php echo esc_url(home_url('/')); ?>">
                 <?php if (has_custom_logo()) : ?>
