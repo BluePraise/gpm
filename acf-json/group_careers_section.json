@@ -1,0 +1,137 @@
+{
+    "key": "group_careers_section",
+    "title": "Homepage - Werken Bij Ons Sectie",
+    "fields": [
+        {
+            "key": "field_careers",
+            "label": "Werken Bij Ons Blokken",
+            "name": "careers",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Voeg content blokken toe voor de 'Werken Bij Ons' sectie",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "field_career_title",
+            "button_label": "Blok Toevoegen",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_career_title",
+                    "label": "Blok Titel",
+                    "name": "career_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_careers"
+                },
+                {
+                    "key": "field_career_content",
+                    "label": "Blok Inhoud",
+                    "name": "career_content",
+                    "aria-label": "",
+                    "type": "wysiwyg",
+                    "instructions": "Inhoud van dit blok. U kunt HTML gebruiken voor sterke tekst en links.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 0,
+                    "delay": 0,
+                    "parent_repeater": "field_careers"
+                },
+                {
+                    "key": "field_career_image",
+                    "label": "Certificaat\/Badge Afbeelding",
+                    "name": "career_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Optioneel - Voeg een certificaat of badge afbeelding toe (bijv. 'Erkend Leerbedrijf')",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "thumbnail",
+                    "parent_repeater": "field_careers"
+                },
+                {
+                    "key": "field_is_stage_block",
+                    "label": "Stage Blok?",
+                    "name": "is_stage_block",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "Activeer dit als dit blok over stage\/leerbedrijf gaat (voegt extra styling toe)",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "Ja",
+                    "ui_off_text": "Nee",
+                    "parent_repeater": "field_careers"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 2,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0
+}

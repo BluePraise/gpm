@@ -1,3 +1,19 @@
+/*
+Theme Name: GPM Installatietechniek
+Theme URI: https://gpminstallatietechniek.nl
+Author: GPM
+Author URI: https://gpminstallatietechniek.nl
+Description: Een professioneel WordPress thema voor GPM Installatietechniek - Uw partner in beveiliging, elektra & domotica.
+Version: 1.0.0
+Requires at least: 5.9
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gpm-installatietechniek
+Tags: business, security, one-column, custom-colors, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
 :root {
     /* RAL 5004 Color Scheme */
     /* --primary-color: #191e28; */

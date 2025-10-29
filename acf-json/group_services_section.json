@@ -1,0 +1,157 @@
+{
+    "key": "group_services_section",
+    "title": "Homepage - Diensten Sectie",
+    "fields": [
+        {
+            "key": "field_services_title",
+            "label": "Diensten Sectie Titel",
+            "name": "services_title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Titel van de diensten sectie",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Onze Diensten",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_services",
+            "label": "Diensten",
+            "name": "services",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "Voeg diensten toe",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "field_service_title",
+            "button_label": "Dienst Toevoegen",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_service_title",
+                    "label": "Dienst Titel",
+                    "name": "service_title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_services"
+                },
+                {
+                    "key": "field_service_description",
+                    "label": "Dienst Beschrijving",
+                    "name": "service_description",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "placeholder": "",
+                    "new_lines": "",
+                    "parent_repeater": "field_services"
+                },
+                {
+                    "key": "field_service_list",
+                    "label": "Dienst Lijst Items",
+                    "name": "service_list",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "Optioneel - Voeg lijst items toe (1 per regel). Bijvoorbeeld voor opsommingen zoals bij Inbraakdetectie.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "placeholder": "Camerabewaking (CCTV)\\nInbraakdetectie\\nToegangscontrole",
+                    "new_lines": "",
+                    "parent_repeater": "field_services"
+                },
+                {
+                    "key": "field_service_image",
+                    "label": "Dienst Afbeelding",
+                    "name": "service_image",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Optioneel - Afbeelding voor deze dienst",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "preview_size": "medium",
+                    "parent_repeater": "field_services"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0
+}

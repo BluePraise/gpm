@@ -1,0 +1,109 @@
+{
+    "key": "group_hero_section",
+    "title": "Homepage - Hero Sectie",
+    "fields": [
+        {
+            "key": "field_hero_logo",
+            "label": "Hero Logo",
+            "name": "hero_logo",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "Upload het GPM logo voor de hero sectie",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_hero_tagline",
+            "label": "Hero Tagline",
+            "name": "hero_tagline",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Tagline onder het logo (bijv. \"Uw partner in beveiliging, elektra & domotica\")",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Uw partner in beveiliging, elektra & domotica",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_hero_welcome_text",
+            "label": "Hero Welkomsttekst",
+            "name": "hero_welcome_text",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Welkomsttekst in de hero sectie",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<p>Welkom op de website van GPM Installatietechniek, gevestigd te Arnhem. Onze dagelijkse bezigheden bestaan onder andere uit het aanleggen van alarmsystemen, cameraobservatiesystemen, elektra, verlichting, intercom, audio\/video en domotica installaties en het oplossen van storingen. Zowel voor de particulier als voor de zakelijke opdrachtgever bieden wij een complete service.<\/p>",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_hero_emphasis_text",
+            "label": "Hero Nadruk Tekst",
+            "name": "hero_emphasis_text",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Benadrukte tekst onder de welkomsttekst",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Wij zorgen voor veiligheid, comfort en gemak, thuis en in uw bedrijf.",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_type",
+                "operator": "==",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0
+}
