@@ -44,6 +44,15 @@ body {
     padding: 0;
 }
 
+.navbar .container {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.navbar-nav {
+    margin-left: auto;
+    width: 100%;
+    justify-content: center;
+}
 .navbar-nav .nav-link {
     font-weight: 500;
     padding: 0.5rem 1rem !important;
@@ -79,6 +88,12 @@ body {
     position: relative;
 }
 
+.hero img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
 .hero h1 {
     margin-bottom: 1rem;
 }
@@ -87,6 +102,10 @@ body {
     font-size: 1.2rem;
     margin-bottom: 4rem;
     font-weight: 300;
+}
+
+.hero .lead {
+    text-align: justify;
 }
 
 /* Section Styling */
@@ -135,6 +154,8 @@ section {
     height: 250px;
     object-fit: cover;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    /* Temporary: Hide images until real images arrive */
+    display: none;
 }
 
 .service-card .card-body {
